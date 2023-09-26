@@ -1,15 +1,28 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
+
+}
+
+.header {
+    margin: 0 auto;
+    background-color: black;
+    padding: 50px 1300px;
+    width: 1108px;
 }
 
 .container {
-    width: 1108px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-line {
-    background-color: black;
-    padding: 50px 1680px;
-    margin: 0 auto;
 }
+
+.nav-item {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 12x;
