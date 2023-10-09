@@ -1,106 +1,49 @@
  body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif, Grtsk Peta;
-    font-size: 14px;
+     margin: 0;
+     font-family: 'Open Sans', sans-serif;
 }
 
- *,
- *:before,
- *:after {
-    box-sizing: border-box;
+ .container {
+      width: 1108px;
+      margin: 0 auto;
  }
 
+ .header {
+      background-color: #E1EDE6;
+      margin: 0;
+      padding: 33px 165px 32px 165px;
+     position: relative;
 
- /* container */
+ }
 
-.container {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
+ .header-line {
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     position: relative;
 
-}
+ }
 
-/*header*/
-.header {
-    padding: 15px 160px;
-    background-color: black;
-    background-size: 100%;
-}
+ .nav {
 
-.header-line {
-    display: flex;
-    justify-content: space-around;
-    color: #F2F2F2;
-    text-decoration: none;
-    align-items: center;
+ }
+ .text-button{
+     border: 1px solid #598D66;
+     display: inline-flex;
+     padding: 20px 60px;
+     justify-content: center;
+     align-items: center;
+     gap: 6px;
+     flex-shrink: 0;
+ }
 
-}
-}
+ .btn {
+     color: #598D66;
+     font-family: Raleway;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-decoration: none;
+ }
 
-.header-vector{
-   position: relative;
-    top: 15x;
-    left: 160px;
-}
-
-.nav-item {
-    position: relative;
-    top: 15x;
-    left: 75px;
-    text-decoration: none;
-
-
-}
-.nav {
-    display: flex;
-    color: #F2F2F2;
-
-
-}
-
-.delivery {
-    display: flex;
-    justify-content: space-between;
-    color: #F2F2F2;
-    text-decoration: none;
-    align-items: center;
-
-}
-
-.pay {
-    display: flex;
-    justify-content: space-between;
-    color: #F2F2F2;
-    text-decoration: none;
-    align-items: center;
-}
-
-.refund {
-    display: flex;
-    justify-content: space-between;
-    color: #F2F2F2;
-    text-decoration: none;
-    align-items: center;
-}
-
-.header-down {
-
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    color: black;
-    text-decoration: none;
-    top: 15px;
-    font-size: 14px;
-}
-
-.menu-item {
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.logo{
-    position: absolute;
-}
