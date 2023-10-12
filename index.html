@@ -4,41 +4,84 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
     <meta name="Keywords" content="Магазин, спорт, одежда">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
     <title>Магазин картин</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <div class="header-line">
-                <div class="header-star-img">
-                    <img src="./img/star.png">
+                <div class="header-left">
+                    <a class="logo">
+                    <img src="./img/logo.svg" alt="Лого тип Ink House">
+                    </a>
                 </div>
-                <div class="nav">
-                    <a class="nav-item">Ink. House</a>
-                    <a class="nav-item">Репродукции</a>
-                    <a class="nav-item">Новинки</a>
-                    <a class="nav-item">О нас</a>
+                <div class="header_right">
+                <div class="nav header_nav">
+                    <ul class="list-reset nav_list">
+                        <li class="nav_item">
+                             <a class="nav-item" href="#">Репродукции</a>
+                        </li>
+                        <li class="nav_item">
+                             <a class="nav-item" href="#">Новинки</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav-item" href="#">О нас</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="cart">
+                  <button class="burger" aria-label="Открыть меню">
+                      <span class="burger_line">
+                      </span>
+                  </button>
+                <a href="#" class="cart" aria-label="Переход в корзину">
                     <img src="img/cart.png">
+                </a>
                 </div>
-
             </div>
         </div>
     </header>
-    <header-hero>
-        <div class="container-hero">
+    <main>
+    <section class="hero">
+        <div class="container grid">
             <div class="img">
                 <img src="img/Layer%20.jpg">
             </div>
             <div class="text-hero">
-                <a class="text">Реплики картин от <span>Ink. House</span></a>
-                <a class="text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</a>
-            </div>
+                <h1 class="hero_title">Реплики картин от <span>Ink. House</span></h1>
+                <p class="text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
             <div class="text-button">
                 <a class="btn" href="#">Продукция</a>
             </div>
+            </div>
         </div>
-    </header-hero>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog_top">
+                <h2 class="title catlog_titel">Репродукция</h2>
+              <ul class="list-reset catalog-tab">
+                  <li class="catalog-tabs_item">
+                      <button class="btn-reset catalog-tabs__btn catalog-tabs__btn--active" data-country="France">Франция</button>
+                  </li>
+                  <li class="catalog-tabs_item">
+                      <button class="btn-reset catalog-tabs__btn catalog-tabs__btn--active" data-country="Germany">Германия</button>
+                  </li>
+                  <li class="catalog-tabs_item">
+                      <button class="btn-reset catalog-tabs__btn catalog-tabs__btn--active" data-country="England">Англия</button>
+                  </li>
+              </ul>
+            </div>
+
+        </div>
+    </section>
+    </main>
 </body>
 </html>
